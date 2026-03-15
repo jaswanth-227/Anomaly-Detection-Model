@@ -55,4 +55,4 @@ Deployment: Joblib
 
 Project Team: Decoders
 
-Developer: Hep (SUNKARA MANOJ KUMAR)
+Developers:SUNKARA MANOJ KUMAR, JASWANTH YADURLA
