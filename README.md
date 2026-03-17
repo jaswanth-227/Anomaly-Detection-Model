@@ -84,9 +84,13 @@ The system follows a multi-stage hybrid methodology designed to maximize accurac
 🧠 Models Used
 
 ▸ Isolation Forest
+
 ▸ One-Class SVM
+
 ▸ Local Outlier Factor
+
 ▸ Transformer VAE
+
 ▸ Attention Fusion Model
 
 💡 Applications
@@ -104,16 +108,23 @@ The system can be applied in:
 🔍 Key Contributions
 
 ▪ Transformer-based latent feature extraction for anomaly detection
+
 ▪ Ensemble of multiple unsupervised detection techniques
+
 ▪ Attention-based fusion for improved decision-making
+
 ▪ Significant improvement in detection accuracy and robustness
 
 🛠️ Tech Stack
 
 ➤ Deep Learning: PyTorch
+
 ➤ Machine Learning: Scikit-learn
+
 ➤ Data Processing: Pandas, NumPy
+
 ➤ Preprocessing: RobustScaler, OneHotEncoder
+
 ➤ Model Serialization: Joblib
 
 👨‍💻 Team
