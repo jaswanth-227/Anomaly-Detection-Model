@@ -10,28 +10,30 @@ The system is dedicated to the detection of identity compromise attacks in conte
 
 The system includes a hybrid approach of the following:
 
-Transformer Variational Autoencoder (VAE) model
+ -Transformer Variational Autoencoder (VAE) model
 
-Unsupervised anomaly detection models
+ -Unsupervised anomaly detection models
 
-Attention fusion mechanism
+ -Attention fusion mechanism
 
 The fusion of these models is effective for the detection of anomalies in high-dimensional data.
+
 ⚠️ Problem Statement
 
 One of the primary causes of security breaches in modern systems is the compromise of identities.
 
-Detecting such attacks is hard because of the following challenges:
+Detecting such attacks is challenging due to:
 
-Sophisticated behavior of attackers
+ -Sophisticated attacker behavior that mimics normal users
 
-High-dimensional and heterogeneous data
+ -High-dimensional and heterogeneous data
 
-Non-linear relationships among the data
+ -Non-linear relationships between features
 
-Limitations of traditional rule-based and signature-based systems
+ -Limitations of traditional rule-based and signature-based systems
 
 To solve the challenges faced by the system, the proposed project uses a hybrid system with deep representation learning, unsupervised anomaly detection, and attention-based decision fusion.
+
 🚀 Proposed Methodology
 
 This system utilizes a multi-stage hybrid methodology, which maximizes the accuracy of the system while minimizing false positives.
@@ -63,32 +65,30 @@ This is done using PyTorch’s Multi-Head Attention
 Weights each output of the models dynamically
 
 Fusion of scores to generate a final prediction
+
 🛠️ Implementation Highlights
 
 Preprocessing of mixed type:
 
-RobustScaler for numerical features
+  -RobustScaler for numerical features
 
-OneHotEncoder for categorical features
+  -OneHotEncoder for categorical features
 
 Automatic tuning of thresholds based on optimization of F1-score
 
 Early stopping incorporated for:
 
-Training of VAE
+  -Training of VAE
 
-Attention fusion model
+  -Attention fusion model
 
 Modular and scalable architecture
 
 Models employed:
 
 Isolation Forest
-
 One-Class SVM
-
 Local Outlier Factor
-
 Transformer VAE
 
 Attention Fusion Model
@@ -128,7 +128,7 @@ Model Serialization: Joblib
 
 Decoders
 
-SUNKARA MANOJ KUMAR
+SUNKARA MANOJ KUMAR, YADURLA JASWANTH,  
 
 JASWANTH YADURLA
 
