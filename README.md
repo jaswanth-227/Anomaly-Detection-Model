@@ -23,8 +23,11 @@ Identity compromise is one of the leading causes of security breaches in modern 
 Detecting such attacks is challenging due to:
 
 ✧ Sophisticated attacker behavior that mimics normal users
+
 ✧ High-dimensional and heterogeneous data
+
 ✧ Non-linear relationships between features
+
 ✧ Limitations of traditional rule-based and signature-based systems
 
 To address these challenges, the project proposes a hybrid system combining deep representation learning, unsupervised anomaly detection, and attention-based decision fusion.
@@ -36,7 +39,9 @@ The system follows a multi-stage hybrid methodology designed to maximize accurac
 🔷 Latent Feature Extraction
 
 ✦ Patch-Transformer Variational Autoencoder (VAE) is utilized
+
 ✦ Data is mapped to a 32-dimensional latent space
+
 ✦ Captures complex non-linear patterns and behavioral normalcy
 
 🔷 Unsupervised Ensemble Models
@@ -44,7 +49,9 @@ The system follows a multi-stage hybrid methodology designed to maximize accurac
 ✦ Three anomaly detection models operate independently on latent features
 
 ✦ Isolation Forest → detects anomalies using isolation
+
 ✦ One-Class SVM → learns boundary of normal behavior
+
 ✦ Local Outlier Factor → detects density-based anomalies
 
 ✦ Each model generates independent anomaly scores
@@ -52,7 +59,9 @@ The system follows a multi-stage hybrid methodology designed to maximize accurac
 🔷 Attention-Based Fusion
 
 ✦ Implemented using PyTorch Multi-Head Attention
+
 ✦ Dynamically assigns weights to model outputs
+
 ✦ Aggregates scores to produce final prediction
 
 🛠️ Implementation Highlights
@@ -60,6 +69,7 @@ The system follows a multi-stage hybrid methodology designed to maximize accurac
 🔵 Mixed-type preprocessing:
 
     ✦ RobustScaler for numerical features
+    
     ✦ OneHotEncoder for categorical features
 
 🔵 Automatic threshold tuning using F1-score optimization
@@ -84,8 +94,11 @@ The system follows a multi-stage hybrid methodology designed to maximize accurac
 The system can be applied in:
 
 ▪ Identity compromise detection
+
 ▪ Fraud detection systems
+
 ▪ Network intrusion detection
+
 ▪ User behavior analytics
 
 🔍 Key Contributions
