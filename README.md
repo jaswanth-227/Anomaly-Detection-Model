@@ -1,11 +1,16 @@
-Anomaly Detection: Attention-Fusion & Transformer-VAE
-This repository features an advanced multi-stage machine learning pipeline developed to detect security attacks by synthesizing unsupervised outlier detection with deep latent feature extraction. The system is specifically optimized for Identity Compromise detection as part of the ISR Labs Bootcamp.
+ Anomaly Detection using Attention-Fusion & Transformer-VAE
 
+A hybrid approach that leverages the power of deep learning and unsupervised learning for precise anomaly detection with low false positive rates for identity compromise attacks.
 📌 Overview
+
 The proposed solution offers an advanced multi-stage anomaly detection system that incorporates the following:
+
 🧠 Deep learning-based feature extraction using a Transformer-based Variational Autoencoder (VAE)
+
 🔍 Multiple unsupervised anomaly detection models
+
 🎯 An Attention-based fusion mechanism for the final prediction
+
 The proposed solution is well-suited for modern enterprise security scenarios where attackers use mimicry attacks.
 
 🚀 Methodology & Architecture
