@@ -1,6 +1,7 @@
  Anomaly Detection using Attention-Fusion & Transformer-VAE
 
 A hybrid approach that leverages the power of deep learning and unsupervised learning for precise anomaly detection with low false positive rates for identity compromise attacks.
+
 📌 Overview
 
 The proposed solution offers an advanced multi-stage anomaly detection system that incorporates the following:
